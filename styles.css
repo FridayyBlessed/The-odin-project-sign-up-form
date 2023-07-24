@@ -2,9 +2,6 @@
     --left-space: 48px;
   }
 
-body{
-    font-family: 'Josefin Sans', sans-serif;
-}
 
 
 
@@ -12,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans';
+    background-color: burlywood;
   }
 
   .content {
@@ -64,7 +62,9 @@ body {
   
   .text-section {
     flex: 5;
-    background-color: #f9fafb;
+    line-height: 1.1;
+    margin-top: 20px;
+    background-color: burlywood;
     display: flex;
     flex-direction: column;
     justify-content: center;
