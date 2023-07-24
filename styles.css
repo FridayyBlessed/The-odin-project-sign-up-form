@@ -163,4 +163,47 @@ body {
 color: black;
   }
 
+
+  @media only screen and (max-width: 600px)  {
+    .content{
+        flex-flow: column;
+        height: auto;
+        text-align: center;
+    }
+    .image-section{
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        background-size: 100vw;
+    }
+    .logo-background{
+        width: 100vw;
+        position: static;
+        gap: 10px;
+    }
+   
+   
+    
+   
+    .inputs-section{
+        text-align: left;
+        width: auto;
+        font-size: 0.9em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .log-in{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    button{
+        margin-bottom: 0px;
+        width: 60vw;
+        padding: 10px 5px;
+    }
+
+}
   
