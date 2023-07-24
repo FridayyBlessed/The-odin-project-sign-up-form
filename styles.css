@@ -84,7 +84,7 @@ body {
   
   .inputs-section {
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     margin-top: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -100,7 +100,7 @@ body {
   
   .inputs-section input {
     box-sizing: border-box;
-    border: 1px solid #e5e7eb;
+    border: 1px solid hotpink;
     border-radius: 4px;
     padding: 4px 8px;
     width: 100%;
@@ -137,7 +137,7 @@ body {
     margin-left: var(--left-space);
     margin-top: 32px;
     border: none;
-    background-color: #596D48;
+    background-color: hotpink;
     padding: 12px 48px;
     border-radius: 8px;
     box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
@@ -154,7 +154,13 @@ body {
   }
   
   .log-in a {
-    color: #596D48;
+    color: hotpink;
     font-weight: bold;
     text-decoration: none;
   }
+
+ a:hover{
+color: black;
+  }
+
+  
